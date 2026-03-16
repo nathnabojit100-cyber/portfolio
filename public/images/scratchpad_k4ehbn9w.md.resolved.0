@@ -1,0 +1,9 @@
+# Portfolio Verification Plan
+
+- [ ] Open http://localhost:5173
+- [ ] Wait 3 seconds for load
+- [ ] Capture Hero section screenshot (screenshot_hero.png)
+- [ ] Locate and capture Achievements section (screenshot_achievements.png)
+- [ ] Locate and capture Vision section (screenshot_vision.png)
+- [ ] Locate and capture Contact section (screenshot_contact.png)
+- [ ] Report file paths

@@ -1,0 +1,128 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  place-items: center;
+  position: relative;
+  opacity: 1;
+  height: auto;
+  width: var(--cWidth);
+  margin: auto;
+}
+
+.about-me {
+  padding: 50px 0px;
+  padding-bottom: 0;
+  width: 560px;
+  max-width: calc(100% - 15px);
+}
+
+.about-me h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 400;
+  color: var(--accentColor);
+}
+
+.about-me .para {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.5px;
+}
+
+.about-para2 {
+  margin-top: 0.6rem;
+}
+
+/* Glowing highlighted words */
+.about-highlight {
+  color: #c4b5fd;
+  position: relative;
+  display: inline;
+}
+
+/* Claude / tool accent — slightly different hue */
+.about-accent {
+  color: #7dd3fc;
+  font-style: italic;
+}
+
+/* Tag strip */
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 2rem;
+}
+
+.about-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 0.4rem 0.9rem;
+  border-radius: 100px;
+  background: rgba(167, 139, 250, 0.1);
+  border: 1px solid rgba(167, 139, 250, 0.28);
+  color: #c4b5fd;
+  white-space: nowrap;
+  transition: background 0.25s ease, border-color 0.25s ease,
+    transform 0.2s ease;
+}
+
+.about-tag:hover {
+  background: rgba(167, 139, 250, 0.2);
+  border-color: rgba(167, 139, 250, 0.5);
+  transform: translateY(-2px);
+  cursor: default;
+}
+
+@media only screen and (min-width: 600px) {
+  .about-section {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-me {
+    width: 560px;
+    max-width: calc(100% - 70px);
+    transform: translateY(0%);
+  }
+  .about-section {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .about-section {
+    width: var(--cWidth);
+    justify-content: right;
+    max-width: 1920px;
+    height: var(--vh);
+    padding: 0px;
+    opacity: 1;
+  }
+  .about-me {
+    padding: 0px;
+    width: 50%;
+  }
+  .about-me .para {
+    font-size: 1.9vw;
+    line-height: 2.6vw;
+  }
+  .about-tag {
+    font-size: 0.72rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .about-me .para {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}

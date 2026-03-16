@@ -1,0 +1,8 @@
+# Portfolio Verification Checklist
+
+- [ ] Open http://localhost:5173
+- [ ] Verify Navbar Email (expected: nathnabojit100@gmail.com)
+- [ ] Verify Hero Section Text (expected: Nabojit Nath, AI Builder | Student Entrepreneur)
+- [ ] Verify Achievements Section
+- [ ] Verify Vision / Currently Exploring Section
+- [ ] Verify CTA at bottom (expected: "Interested in collaborating or mentoring?")
